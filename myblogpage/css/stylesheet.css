@@ -1,0 +1,36 @@
+h1 {
+	font-family: 'Lobster', cursive;
+    color: #FA4C0C;
+	background-color: white;
+	text-align: center;
+	border: 5px;
+	border-style: outset;
+	margin-left:200px;
+	margin-right: 200px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+a{
+	color:#198AA4;
+}
+
+
+body {
+	font-size: 24px;
+	background-color:#00FFFF;
+}
+
+#maincontent{
+	color: #2E61EB;
+	margin-left:60px;
+	margin-right:60px;
+}
+
+.centerme{
+	text-align:center;
+}
+
+ul{
+	color: #198AA4;
+}
