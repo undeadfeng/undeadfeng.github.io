@@ -34,5 +34,19 @@ body {
 }
 
 ul{
-	color: #198AA4;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:200px;
+	background-color:#2E61EB;
+}
+
+li a{
+	display:block;
+	color:#00FFFF;
+	padding:8px 0 8px 16px
+}
+
+li a:hover{
+	background-color:#038B92;
 }
