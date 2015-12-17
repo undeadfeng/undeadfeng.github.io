@@ -61,12 +61,13 @@ nav ul li a{
 	text-decoration:none;
 	color:#000000;
 	padding:8px 0 8px 16px;
-	transition:0.8s;
+
 }
 
 nav ul li a:hover{
 	background-color:#1C1C1C;
-	color:#FFFFFF;'
+	color:#FFFFFF;
+	transition:0.8s;
 }
 
 .active{
@@ -91,6 +92,7 @@ img{
 		top:0;
 		left:0;
 		height:auto;
+		transition:0.5s;
 	}
 	
 	nav ul li{
@@ -112,5 +114,12 @@ img{
 		margin-left:5%;
 		margin-right:5%;
 		padding-top:5%;
+	}
+}
+
+@media screen and (image-width: 100px){
+	img{
+	width:200%;
+	height:auto;
 	}
 }
